@@ -1,0 +1,65 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+
+# Android
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/.gradle/
+android/local.properties
+android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/
+**/android/.gradle/
+
+# iOS
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Secrets (NE JAMAIS COMMITTER)
+.env
+*.env
+secrets.dart
+google-services.json
+GoogleService-Info.plist
+key.properties
+*.keystore
+*.jks
+
+# Hive / local DB
+*.hive
+*.lock
+
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.idea/
+*.iml
+.vscode/
+coverage/
+doc/api/
+
+# Windows Flutter cache
+windows/flutter/ephemeral/
